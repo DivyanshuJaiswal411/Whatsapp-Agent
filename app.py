@@ -170,7 +170,9 @@ Reply:
         return reply
 
     except Exception as e:
-        print("ERROR:", e)
+        import traceback
+        print("🔥 FULL ERROR BELOW 🔥")
+        traceback.print_exc()
         return "arey bubu thoda glitch ho gaya 😭"
 
 # 📤 SEND MESSAGE
