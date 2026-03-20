@@ -154,7 +154,7 @@ Reply:
 """
 
         response = gemini_client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=prompt
         )
 
@@ -204,7 +204,7 @@ Send a short natural Hinglish message.
 """
 
         response = gemini_client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=prompt
         )
 
